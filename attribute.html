@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Attributes</title>
+        <!--link: before visiting
+             visited: after visiting
+             hover: when mouse is hovered on the link
+             active: state when link is clicked-->
+        <style>
+           a{
+              color: blue;
+            }
+            #btn-lg{
+                width: 200px;
+                height: 70px;
+                font-size: 30px;
+               background-color: blue;
+            }
+           a:visited{
+               color: red;
+           }
+           #btn-lg:visited{
+                 background-color: yellow;
+           }
+           a:hover{
+            color: green;
+           }
+           #btn-lg:hover{
+            background-color: orange;
+           }
+           a:active{
+            color: purple;
+           }
+           #btn-lg:active{
+           background-color:  purple;
+           }
+           a[href="https://play.google.com"]
+           {
+            color: chocolate;
+           }
+         </style>
+    </head> 
+   
+   <body>
+    <button id="btn-lg" >Login</button>
+    <ul>
+        <li ><a href="https://google.com">Google</a></li>
+        <li ><a href = "https://facebook.com">Facebook</a></li>   
+         <li><a href = "https://pintrest.com">Pintrest</a> </li>
+         <li><a href="https://play.google.com">Playbooks</a></li>
+   </ul>
+   </body>
+</html>
